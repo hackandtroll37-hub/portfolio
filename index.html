@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hardy's Art — Motion Designer & Vidéaste | Portfolio</title>
+  <meta name="description" content="Hardy's Art — Motion design, vidéo et post-production pour marques, startups et agences. Des animations soignées, des délais tenus, des vidéos qui convertissent." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <div class="bg" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="grid-overlay"></div>
+    <div class="noise-overlay"></div>
+  </div>
+
+  <header class="navbar" id="navbar">
+    <a class="brand" href="#accueil">
+      <span class="brand-dot" aria-hidden="true"></span>
+      HARDY'S<span class="brand-accent">ART</span>
+    </a>
+    <nav class="nav-links" id="nav-links" aria-label="Navigation principale">
+      <a href="#projets">Projets</a>
+      <a href="#services">Services</a>
+      <a href="#process">Méthode</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact" class="btn btn-outline btn-sm nav-cta">Discuter <span aria-hidden="true">→</span></a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+
+    <section class="hero" id="accueil">
+      <div class="container hero-inner">
+        <p class="hero-badge reveal">
+          <span class="badge-dot" aria-hidden="true"></span>
+          Disponible pour vos nouveaux projets
+        </p>
+        <h1 class="hero-title reveal">
+          Je donne vie à vos idées<br />
+          <span class="gradient-text">en mouvement.</span>
+        </h1>
+        <p class="hero-sub reveal">
+          Motion designer &amp; vidéaste freelance. J'accompagne marques, startups et
+          agences avec des animations et des vidéos soignées qui captent l'attention
+          — et donnent envie de travailler avec vous.
+        </p>
+        <div class="hero-typing reveal" aria-hidden="true">
+          <span class="typing-label">spécialisé en</span>
+          <span class="typing" id="typing"></span>
+        </div>
+        <div class="hero-actions reveal">
+          <a href="#projets" class="btn btn-primary">Voir mes projets <span aria-hidden="true">→</span></a>
+          <a href="#contact" class="btn btn-outline">Démarrer un projet</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <span class="stat-value"><span class="counter" data-target="60">0</span>+</span>
+            <span class="stat-label">Projets livrés</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value"><span class="counter" data-target="98">0</span>%</span>
+            <span class="stat-label">Clients satisfaits</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value"><span class="counter" data-target="5">0</span>+</span>
+            <span class="stat-label">Années d'expérience</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true"><span></span></div>
+    </section>
+
+    <section class="marquee-section" aria-hidden="true">
+      <div class="marquee">
+        <div class="marquee-track">
+          <span>After Effects</span><i></i><span>Premiere Pro</span><i></i><span>Blender</span><i></i><span>Photoshop</span><i></i><span>Illustration</span><i></i><span>Sound Design</span><i></i><span>Animation 2D/3D</span><i></i><span>VFX</span><i></i>
+          <span>After Effects</span><i></i><span>Premiere Pro</span><i></i><span>Blender</span><i></i><span>Photoshop</span><i></i><span>Illustration</span><i></i><span>Sound Design</span><i></i><span>Animation 2D/3D</span><i></i><span>VFX</span><i></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projets">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">01 — Portfolio</p>
+          <h2>Projets <span class="gradient-text">sélectionnés</span></h2>
+          <p class="section-sub">Une sélection de vidéos et d'animations réalisées pour des marques et créateurs. Chaque projet a un objectif précis : faire réagir, expliquer, convertir.</p>
+        </div>
+        <div class="projects-grid">
+
+          <a href="#contact" class="project-card reveal">
+            <div class="project-thumb">
+              <img src="assets/projects/nova-pay.svg" alt="Film produit 3D pour Nova Pay" loading="lazy" />
+              <span class="project-tag">Motion 3D · Film produit</span>
+            </div>
+            <div class="project-body">
+              <h3>Nova Pay — Lancement d'application</h3>
+              <p>Film produit mêlant animation 3D et typographie animée pour introduire l'app de paiement mobile.</p>
+            </div>
+          </a>
+
+          <a href="#contact" class="project-card reveal">
+            <div class="project-thumb">
+              <img src="assets/projects/aura-audio.svg" alt="Spot publicitaire pour Aura Audio" loading="lazy" />
+              <span class="project-tag">Spot · 3D + VFX</span>
+            </div>
+            <div class="project-body">
+              <h3>Aura Audio — Spot casque H1</h3>
+              <p>Spot publicitaire 15″ pour le lancement d'un casque : macro 3D, couleurs néon et sound design sur-mesure.</p>
+            </div>
+          </a>
+
+          <a href="#contact" class="project-card reveal">
+            <div class="project-thumb">
+              <img src="assets/projects/cliniflow.svg" alt="Vidéo explicative CliniFlow" loading="lazy" />
+              <span class="project-tag">Explainer · Motion 2D</span>
+            </div>
+            <div class="project-body">
+              <h3>CliniFlow — Vidéo explicative SaaS</h3>
+              <p>Motion design 2D de 60″ pour expliquer un logiciel de gestion clinique : visibilité produit +30 % en 3 mois.</p>
+            </div>
+          </a>
+
+          <a href="#contact" class="project-card reveal">
+            <div class="project-thumb">
+              <img src="assets/projects/glow-festival.svg" alt="Habillage et générique Glow Festival" loading="lazy" />
+              <span class="project-tag">Habillage · Logo reveal</span>
+            </div>
+            <div class="project-body">
+              <h3>Glow Festival — Habillage &amp; générique</h3>
+              <p>Identité animée complète pour un festival : jingles, écrans LED et formats courts pour les réseaux.</p>
+            </div>
+          </a>
+
+          <a href="#contact" class="project-card reveal">
+            <div class="project-thumb">
+              <img src="assets/projects/reverb-type.svg" alt="Clip musical Reverb — typographie animée" loading="lazy" />
+              <span class="project-tag">Clip · Typographie</span>
+            </div>
+            <div class="project-body">
+              <h3>Reverb — Clip musical kinetic type</h3>
+              <p>Clip animé en typographie cinétique synchronisée à la musique pour un artiste indie — plus de 250 k vues TikTok.</p>
+            </div>
+          </a>
+
+          <a href="#contact" class="project-card reveal">
+            <div class="project-thumb">
+              <img src="assets/projects/vertex.svg" alt="Formats verticaux pour Vertex Studio" loading="lazy" />
+              <span class="project-tag">Social · Package 9:16</span>
+            </div>
+            <div class="project-body">
+              <h3>Vertex Studio — Package réseaux sociaux</h3>
+              <p>Série de 12 formats verticaux (TikTok / Reels) avec templates réutilisables que l'équipe interne peut modifier.</p>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">02 — Services</p>
+          <h2>Ce que je peux <span class="gradient-text">faire pour vous</span></h2>
+          <p class="section-sub">Du brief à la livraison finale : un seul interlocuteur, des allers-retours inclus, un fichier final prêt à publier.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5h16v11H4z"/><path d="M10 8.5v4l4-2z"/><path d="M8 20h8"/></svg>
+            </div>
+            <h3>Motion design</h3>
+            <p>Animation 2D/3D, logo reveals, vidéos explicatives, habillage graphique. Le mouvement qui raconte votre produit.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="12" height="12" rx="2"/><path d="M15 10l6-3v10l-6-3"/></svg>
+            </div>
+            <h3>Montage &amp; post-production</h3>
+            <p>Montage, étalonnage, sound design et sous-titres pour vos rushes, interviews et contenus social media.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="4.5"/></svg>
+            </div>
+            <h3>Identité animée</h3>
+            <p>Logo animé, templates de posts et touches graphiques cohérentes sur toutes vos plateformes.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4h14v16H5z"/><path d="M8 9h8M8 13h5"/><path d="M9 17l1.5 1.5L13.5 15.5"/></svg>
+            </div>
+            <h3>Effets visuels</h3>
+            <p>Compositing, tracking, intégration 3D : des effets qui marquent les esprits sans voler la vedette au message.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">03 — Méthode</p>
+          <h2>Un déroulé <span class="gradient-text">simple et transparent</span></h2>
+          <p class="section-sub">Pas de surprise : vous savez à chaque étape où en est le projet, ce qui est livré et quand.</p>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-num">01</span>
+            <h3>Brief &amp; cadrage</h3>
+            <p>On échange 30 minutes pour cerner votre objectif, votre audience et votre budget. Je vous fais une proposition claire sous 48h.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">02</span>
+            <h3>Concept &amp; storyboards</h3>
+            <p>Je propose une direction visuelle, une narration et un storyboard que l'on valide ensemble avant de produire.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">03</span>
+            <h3>Production &amp; retours</h3>
+            <p>Animation, montage, sound design. 1 à 2 cycles de retours inclus selon la formule, pendant lesquels chaque séquence reste modifiable.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">04</span>
+            <h3>Livraison</h3>
+            <p>Fichier final dans tous les formats utiles (YouTube, Reels, écran LED...), avec les sources conservées pour vos prochaines vidéos.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="tarifs">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">04 — Tarifs</p>
+          <h2>Des <span class="gradient-text">formules claires</span></h2>
+          <p class="section-sub">Des prix de départ indicatifs : le devis final dépend de la durée, du style et des délais. Sans engagement.</p>
+        </div>
+        <div class="pricing-grid">
+
+          <article class="pricing-card reveal">
+            <h3>Essentiel</h3>
+            <p class="price"><span class="price-max">À partir de</span> <strong>350&nbsp;€</strong></p>
+            <p class="price-desc">Pour un premier contenu qui capte l'œil et l'attention.</p>
+            <ul>
+              <li>Logo animé ou clip court (jusqu'à 15″)</li>
+              <li>1 cycle de retours</li>
+              <li>Livraison en 7 jours</li>
+              <li>Formats adaptés (16:9, 9:16, 1:1)</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-block">Choisir Essentiel</a>
+          </article>
+
+          <article class="pricing-card featured reveal">
+            <p class="pricing-badge">Recommandé</p>
+            <h3>Studio</h3>
+            <p class="price"><span class="price-max">À partir de</span> <strong>890&nbsp;€</strong></p>
+            <p class="price-desc">Le package complet pour une vidéo qui vend vraiment.</p>
+            <ul>
+              <li>Vidéo explicative ou spot (jusqu'à 60″)</li>
+              <li>Storyboard + direction artistique</li>
+              <li>Sound design &amp; sous-titres</li>
+              <li>2 cycles de retours</li>
+              <li>Livraison en 3 semaines</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-block">Choisir Studio</a>
+          </article>
+
+          <article class="pricing-card reveal">
+            <h3>Partenariat</h3>
+            <p class="price"><span class="price-max">Sur devis</span></p>
+            <p class="price-desc">Un œil extérieur motion pour toute votre communication.</p>
+            <ul>
+              <li>Flux mensuel de contenus (4+ mois)</li>
+              <li>Identité animée + templates</li>
+              <li>Priorité sur mon planning</li>
+              <li>Interlocuteur unique, suivi dédié</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-block">En parler</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container container-narrow">
+        <div class="section-head reveal">
+          <p class="section-tag">05 — FAQ</p>
+          <h2>Les questions <span class="gradient-text">fréquentes</span></h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq reveal">
+            <summary>Quels fichiers je dois vous fournir ?</summary>
+            <p>Votre logo (idéalement vectoriel), le texte ou la structure du message, les visuels disponibles au format le plus haute définition possible et vos exigences de branding s'il y en a.</p>
+          </details>
+          <details class="faq reveal">
+            <summary>Quels sont les délais moyens ?</summary>
+            <p>Un logo animé : environ 1 semaine. Une vidéo explicative de 30-60″ : 3 à 4 semaines selon les allers-retours. Une urgence ? Le cas échéant, demandez : je propose des options d'urgence.</p>
+          </details>
+          <details class="faq reveal">
+            <summary>Puis-je modifier la vidéo plus tard ?</summary>
+            <p>Oui. Vous obtenez une licence d'utilisation complète sur les fichiers livrés. Pour toute reprise hors brief initial, on prévoit simplement un avenant rapide et transparent.</p>
+          </details>
+          <details class="faq reveal">
+            <summary>Vous travaillez à distance ?</summary>
+            <p>Oui, à 100 %. Les échanges se font en visio, les fichiers via un lien de partage. Vous validez chaque étape en ligne, où que vous soyez.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-about" id="apropos">
+      <div class="container about-grid">
+        <div class="about-visual reveal" aria-hidden="true">
+          <div class="about-frame">
+            <div class="about-avatar">HA</div>
+            <div class="about-ring"></div>
+          </div>
+          <div class="about-chip chip-1">After Effects</div>
+          <div class="about-chip chip-2">Premiere Pro</div>
+          <div class="about-chip chip-3">Blender</div>
+        </div>
+        <div class="about-text">
+          <p class="section-tag reveal">06 — À propos</p>
+          <h2 class="reveal">Derrière Hardy's <span class="gradient-text">Art</span></h2>
+          <p class="reveal">Moitié designer, moitié cinéaste. Depuis 5 ans, je transforme des messages compliqués en vidéos claires, et logos statiques en marques animées.</p>
+          <p class="reveal">Je privilégie des relations longues : vous m'appelez, je connais déjà votre style. Les fichiers source sont gardés — votre prochaine vidéo est toujours plus rapide que la précédente.</p>
+          <ul class="about-list reveal">
+            <li>Réponse en moins de 24h</li>
+            <li>Échanges simples, jargon en option</li>
+            <li>Sources conservées 2 ans</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cta" id="contact">
+      <div class="container">
+        <div class="cta-card reveal">
+          <h2>Un projet en tête ? <span class="gradient-text">Parlons-en.</span></h2>
+          <p>Décrivez-moi vite votre idée en quelques lignes — je vous réponds sous 24h avec une première piste de budget et de délai.</p>
+          <div class="cta-actions">
+            <a class="btn btn-primary btn-lg" id="mailto-link" href="mailto:contact@hardysart.com?subject=Nouveau%20projet%20—%20Hardy's%20Art">
+              Écrire un e-mail
+            </a>
+            <a class="btn btn-outline btn-lg" href="https://www.behance.net/" target="_blank" rel="noopener">Voir Behance</a>
+          </div>
+          <p class="cta-mail">ou copiez&nbsp;: <button class="copy-mail" id="copy-mail" data-mail="contact@hardysart.com">contact@hardysart.com</button></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#accueil">
+        <span class="brand-dot" aria-hidden="true"></span>
+        HARDY'S<span class="brand-accent">ART</span>
+      </a>
+      <p class="footer-note">Motion design &amp; vidéo — © <span id="year"></span> Hardy's Art. Tous droits réservés.</p>
+      <div class="footer-socials">
+        <a href="https://www.behance.net/" target="_blank" rel="noopener" aria-label="Behance">Bé</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
